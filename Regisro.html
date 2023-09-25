@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b5e27d1315.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato&family=Teko:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>Registro</title>
+    <link rel="icon" href="IMG/La Piramide (1).ico">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/DiseñoLP.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Teko&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <script src="./js/crud.js"></script>
+    
+</head>
+<body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="IMG/LogoLP.png" width="45px" height="auto" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Jardineria.html">Jardineria</a></li>
+                      <li><a class="dropdown-item" href="Carpinteria.html">Carpinteria</a></li>
+                      <li><a class="dropdown-item" href="Electricidad.html">Electricidad</a></li>
+                      <li><a class="dropdown-item" href="Construccion.html">Construccion</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="Productos.html">Todos los productos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Cuenta.html">Mi cuenta</a>
+                  </li>
+                </ul>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                  <input type="search" class="form-control form-control-dark" placeholder="¿Qué estás buscando?" aria-label="Search">
+                </form>
+          
+                <div class="text-end">
+                  <button type="button" class="btn btn-outline-light me-2"><a href="InicioSec.html">Iniciar Sesión</a></button>
+                  <button type="button" class="btn btn-warning"><a href="Regisro.html">Regístrate</a></button>
+                  <button type="button" class="btn btn-warning"><a href="Regisro.html">Ver perfir</a></button>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <form class="InicioSeccion">
+        <H2>Crea tu cuenta gratis</H2>
+        <div class="RedSocial">
+            <div>
+                <P>¿Ya tienes una cuenta? <a href="InicioSec.html"><b>Inicia Sesión</b></a></P>
+            </div>
+
+            <div>
+                <h3>Regístrate con</h3>
+                <div class="flex-RS">
+                    <div class="RedSocial__img">
+                        <a href="https://web.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjIzOTM0NTI0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D"><img src="IMG/FACE.png"></a>
+                    </div>
+                    <div class="RedSocial__img">
+                        <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="img/GMAIL.png" alt=""></a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div>
+                <H1>O</H1>
+            </div>
+
+            <div class="CENTER1">
+            
+                <div class="Formu">
+                <form method="POST" id="cuenta">
+                    <h3>Ingrese sus datos</h3>
+               
+                    <div class="Sep__clas">
+                        <input type="text" required class="Sep__P1-input" placeholder="Ingrese tu nombre" name="nombre">
+                    </div>
+                    <div class="Sep__clas">
+                        <input type="text" required class="Sep__P1-input" placeholder="Ingrese su apellido" name="apellidos">
+                    </div>
+                    <div class="Sep__clas">
+                        Indique su fecha de nacimiento
+                        <input type="date" required class="Sep__P1-input" placeholder="Fecha de Nacimiento" name="fechaNac">
+                        
+                    </div>
+
+                    <div class="Sep__clas">
+                        <select name="estado" class="Sep__P1-input" required>
+                            <option value="no">Seleccione su estado...</option>
+                            <option value="Aguascalientes">Aguascalientes</option>
+                            <option value="Baja California">Baja California</option>
+                            <option value="Baja California Sur">Baja California Sur</option>
+                            <option value="Campeche">Campeche</option>
+                            <option value="Chiapas">Chiapas</option>
+                            <option value="Chihuahua">Chihuahua</option>
+                            <option value="CDMX">Ciudad de México</option>
+                            <option value="Coahuila">Coahuila</option>
+                            <option value="Colima">Colima</option>
+                            <option value="Durango">Durango</option>
+                            <option value="Estado de México">Estado de México</option>
+                            <option value="Guanajuato">Guanajuato</option>
+                            <option value="Guerrero">Guerrero</option>
+                            <option value="Hidalgo">Hidalgo</option>
+                            <option value="Jalisco">Jalisco</option>
+                            <option value="Michoacán">Michoacán</option>
+                            <option value="Morelos">Morelos</option>
+                            <option value="Nayarit">Nayarit</option>
+                            <option value="Nuevo León">Nuevo León</option>
+                            <option value="Oaxaca">Oaxaca</option>
+                            <option value="Puebla">Puebla</option>
+                            <option value="Querétaro">Querétaro</option>
+                            <option value="Quintana Roo">Quintana Roo</option>
+                            <option value="San Luis Potosí">San Luis Potosí</option>
+                            <option value="Sinaloa">Sinaloa</option>
+                            <option value="Sonora">Sonora</option>
+                            <option value="Tabasco">Tabasco</option>
+                            <option value="Tamaulipas">Tamaulipas</option>
+                            <option value="Tlaxcala">Tlaxcala</option>
+                            <option value="Veracruz">Veracruz</option>
+                            <option value="Yucatán">Yucatán</option>
+                            <option value="Zacatecas">Zacatecas</option>
+                        </select>
+                        
+                    </div>
+                    
+                    <div class="Sep__clas">
+                        <input type="number" class="Sep__P1-input" required name="cp" placeholder="Código Postal">
+                       
+                    </div>
+                    <div class="Sep__clas">
+                        <input type="text" class="Sep__P1-input" name="telefono" placeholder="Número de teléfono">
+                      
+                    </div>
+    
+                    
+    
+                    <div class="Sep__clas">
+                        <input type="password" required  placeholder="Contraseña" class="Sep__P1-input" name="contrasena">
+                    </div>
+
+                    <div class="Sep__clas">
+                        <input type="email" required placeholder="Correo Electrónico" class="Sep__P1-input-Correo" name="correo">
+                    </div>
+    
+                    <div class="Sep__clas">
+                        <input type="password"  placeholder="Repita contraseña" class="Sep__P1-input">
+                    </div>
+                    <div class="Sep__clas">
+                        <input type="checkbox"  required class="Sep__P1-input"> <label ><a href="docs/Sin título 1.docx">Acepto términos y condicones</a></label>
+                    </div>
+                    <div class="Sep__clas">
+                        <input type="checkbox"  class="Sep__P1-input"> <label >Recibir Notificaciones</label>
+                    </div>
+                    <div class="Sep__clas-b">
+                        <input type="submit" value="Crear mi cuenta" class="Sep__P1-input" onclick="insertar()">
+                    </div>
+                </form>
+                </div>
+            
+            </div>
+        </div>
+    </form>
+
+    <footer class="Flex-foo">
+        <div class="FOO">
+            <h2>Horario</h2>
+            <p>
+                Lunes a Sábado de 8am a 8pm
+                Domingo de 10am a 6pm
+            </p>
+        </div>
+        <div class="FOO">
+            <h2>Ubicacion</h2>
+            <p>
+                San José Ahuatempa ubicado en Huejutla <br>
+                de Reyes Hidalgo CP:43003
+            </p>
+        </div>
+        <div class="FOO">
+            <h2>Aviso de privacidad</h2>
+            <a href="Docs/Aviso-de-Privacidad.docx">Descargar</a>
+        </div>
+    
+        <div class="FOO">
+            <DIV class="Redes_cont">
+                <div class="Redes_cont_img">
+                    <a href="https://web.facebook.com/andrade.bhrz"><img src="img/FACE.png" alt=""></a>
+                </div>
+                <div class="Redes_cont_img">
+                    <a href="https://www.instagram.com/andradebh15/"><img src="img/INST.png" alt=""></a>
+                </div>
+                <div class="Redes_cont_img">
+                    <a href="mailto:20200697@uthh.edu.mx"><img src="IMG/Email.png" alt=""></a>
+                </div>
+                <div class="Redes_cont_img">
+                    <a href="https://twitter.com/ANDRADEBH1"><img src="IMG/TWET.jpg" alt=""></a>
+                </div>
+            </DIV>
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html>

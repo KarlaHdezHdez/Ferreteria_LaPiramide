@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <script src="./js/crud.js"></script>
+</head>
+<body>
+
+	<div>
+		<a href="php/cerrarSesion.php">Cerrar Sesión</a>
+	</div>
+	<h2>BIENVENID@</h2>
+	<div id="respuesta"></div>
+      	<input class="boton" type="button" value="Ver perfil" onclick="consultar()"><br>
+
+
+
+     <h2>Edita</h2>
+    <form id="formulario2" method="POST">
+        <b>Ingrese la clave y los nuevos datos para modificar registro</b> <br>
+        Id del registro:  <input type="text" name="id" id="id"><br>
+        Nuevo nombre <input type="text" name="nombre" id="nombre"><br>
+        Nuevo apellido paterno  <input type="text" name="apellidop" id="apellidop"><br>
+        Nuevo apellido materno  <input type="text" name="apellidom" id="apellidom"><br>
+        Nuevo teléfono          <input type="text" name="telefono" id="telefono"><br>
+        <input class="boton" type="button" value="Editar" onclick="Editar()">
+    </form>
+
+
+
+</body>
+</html>
+
+
